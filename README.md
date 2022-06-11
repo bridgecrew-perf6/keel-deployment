@@ -1,5 +1,11 @@
 ## keel-deployment
 
+Add repo helm
+```bash
+helm repo add keel https://charts.keel.sh 
+helm repo update
+```
+
 Installing or upgrade with helm
 ```bash
 helm upgrade --install keel keel/keel --values keel/values.yaml -n pintu
