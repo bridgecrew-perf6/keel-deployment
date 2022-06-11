@@ -235,7 +235,6 @@ dockerRegistry:
   enabled: true
   name: "docker-hub"
   key: ".dockerconfigjson"
-  # key: "4cfebfd8-7482-452f-a7b6-6c77a1b7eee7"
 
 persistence:
   enabled: false
